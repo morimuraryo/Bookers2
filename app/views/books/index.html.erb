@@ -1,0 +1,10 @@
+<!--Books#index-->
+<%= render 'error', model: @book %>
+<div class ="container px-5 px-sm-0">
+  <div class = "row">
+    <%= render 'side', user: @user, books: @books, booknew: @book %>
+    <%= render 'main', books: @books %>
+  </div>
+</div>
+
+
